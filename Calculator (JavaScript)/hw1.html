@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Calculator</title>
+<link rel="stylesheet" type="text/css" href="hw1.css">
+</head>
+<body>
+<script type="text/javascript" src="hw1.js"></script>
+<h1>Calculator</h1>
+<table>
+  <tr>
+    <td>X:</td>
+    <td><input type="text" id="x"></td>
+  </tr>
+  <tr>
+    <td>Y:</td>
+    <td><input type="text" id="y"></td>
+  </tr>
+  <tr>
+    <td></td>
+    <td> 
+      <button type="button" id="plus" onclick="add()">+</button> 
+      <button type="button" id="minus" onclick="minus()">-</button>
+      <button type="button" id="mul" onclick="multiply()">*</button>
+      <button type="button" id="div" onclick="divide()">/</button>
+    </td>
+  </tr>
+  <tr>
+    <td>Answer:</td>
+    <td><input type="text" id="ans" readonly></td>
+  </tr>
+</table>
+</body>
+</html>

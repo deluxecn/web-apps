@@ -1,0 +1,9 @@
+body {
+	background-color: palegreen;
+}
+table, th, td {
+    border: 1px solid black;
+}
+button {
+ font-size: 14px;
+}
